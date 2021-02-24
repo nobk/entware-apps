@@ -36,7 +36,7 @@ define Package/rsyslog
 endef
 
 define Package/rsyslog/conffiles
-/etc/rsyslog.conf
+/opt/etc/rsyslog.conf
 endef
 
 CONFIGURE_ARGS+= \
